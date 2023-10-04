@@ -1,0 +1,33 @@
+body {
+    background-color: #242731;
+}
+
+#informationContainer {
+    text-shadow: 3px 5px 5px black;
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20%;
+}
+
+#imageContainer {
+    z-index: 0;
+}
+
+video {
+    padding: 0;
+    margin: 3%;
+    border: 1px solid white;
+}
+
+img {
+    left: 0;
+    right: 0;
+    top: 23%;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+    width: 10%;
+    transition: transform 0.3s ease;
+}
